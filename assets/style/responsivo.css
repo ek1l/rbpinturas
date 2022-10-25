@@ -1,0 +1,418 @@
+@import url(./style.css);
+@import url(./carrossel.css);
+
+
+
+@media (max-width: 1400px) {
+
+    
+.container-cards {
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+    
+}
+
+
+@media (max-width: 1030px) {
+    .container-section-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+        flex-wrap: wrap;
+    }
+
+    .quem-somos {
+        color: white;
+        width: 315px;
+     text-align: center;
+    }
+    
+    .container-section-3 {
+        width: 100%;
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+
+    .texto-etapas  {
+        display: flex;
+        flex-direction: column;
+     text-align: center;
+        color: white;
+    }
+    .swiper-slide img {
+        cursor: grabbing;
+        transition: 0.3s;
+        display: block;
+        width: 100%;
+        height: 450px !important;
+        object-fit: cover;
+        
+      }
+}
+
+
+@media (max-width: 830px) {
+    .swiper-slide img {
+        cursor: grabbing;
+        transition: 0.3s;
+        display: block;
+        width: 100%;
+        height: 350px !important;
+        object-fit: cover;
+        
+      }
+
+
+      .info-card {
+        text-align: center;
+      }
+}
+
+
+@media (min-width: 1920px)  {
+    .container-section-6 {
+        width:1380px;
+        height: 100%;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   padding-left: 210px;
+        
+    }
+}
+
+@media (max-width: 570px) {
+
+    .swiper-slide img {
+        cursor: grabbing;
+        transition: 0.3s;
+        display: block;
+        width: 100%;
+        height: 250px !important;
+        object-fit: cover;
+        
+      }
+
+}
+
+
+
+@media (max-width:414px) {
+
+    .swiper-slide img {
+        cursor: grabbing;
+        transition: 0.3s;
+        display: block;
+        width: 100%;
+        height: 200px !important;
+        object-fit: cover;
+        
+      }
+
+}
+
+
+
+@media (max-width:730px) {
+    .texto-na-imagemm {
+        padding: 10px;
+    }
+
+    #padd {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mover-tudoo {
+        display: flex;
+        padding-left: 250px;
+        padding-top: 80px;
+    }
+}
+
+
+@media (max-width:450px) {
+    .mover-tudoo {
+        display: flex;
+        padding-left: 250px;
+        padding-top: 20px !important;
+    }
+}
+
+
+
+
+@media (max-width:630px) {
+    .mover-tudoo {
+        display: flex;
+        padding-left: 200px;
+        padding-top: 80px;
+    }
+}
+
+
+@media (max-width:570px) {
+    .mover-tudoo {
+        display: flex;
+        padding-left: 150px;
+        padding-top: 80px;
+    }
+}
+
+
+
+@media (max-width:520px) {
+    .mover-tudoo {
+        display: flex;
+        padding-left: 100px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width:530px) {
+    .videoo video {
+        width: 400px;
+    }
+}
+
+
+@media (max-width:530px) {
+    .videoo video {
+        width: 400px;
+    }
+}
+
+
+@media (max-width:430px)  {
+
+    .texto-na-imagemm h1{
+        border-bottom: 2px solid red;
+        width: 250px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    
+    }
+
+
+    .videoo video {
+        width: 360px;
+    }
+
+    .mover-tudoo {
+        display: flex;
+        padding-left: 80px;
+        padding-top: 150px;
+    }
+}
+
+
+@media (max-width:383px) {
+    .videoo video {
+        width: 340px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .endereco {
+        display: none;
+    }
+
+    .horario {
+        display: none;
+    }
+
+    .horario {
+        display: none;
+    }
+
+    .whatzapp {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width:450px) {
+    .texto-etapas h1 {
+        width: 300px;
+        margin-bottom: 15px;
+        font-size: 40px !important;
+        border-bottom: 2px solid red;
+    }
+    .galeria h1 {
+        
+        font-size: 40px !important;
+        color: white;
+         border-bottom: 2px solid red;
+      }
+
+}
+
+
+
+
+@media (max-width:521px) {
+    .mover {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+
+
+}
+
+
+
+@media (max-width:470px) {
+
+    
+.pintura-e-restauracao h1 {
+    font-size: 40px;
+    color: white;
+}
+
+} 
+
+@media (max-width:505px) {
+
+    .logo img {
+
+        width: 350px;
+    
+    }
+
+    .mover {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+}
+
+
+@media (max-width:410px) {
+    .img-etapas img{
+        width: 350px !important;
+    } 
+}
+
+@media (max-width:465px) {
+
+
+    .img-etapas img{
+        width: 400px;
+    } 
+    .mover {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+
+    .texto-na-imagem h1 {
+        border-bottom: 2px solid black;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .texto-na-imagem p {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:820px) {
+    .pintura-e-restauracao h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .justify {
+        top: 0;
+        position: absolute;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 500px;
+        width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:703px) {
+    .pintura-e-restauracao h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .justify {
+        top: 0;
+        position: absolute;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 450px;
+        width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:620px) {
+    .pintura-e-restauracao h1 {
+        font-size: 45px;
+        color: white;
+    }
+
+    .justify {
+        top: 0;
+        position: absolute;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 400px;
+        width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:477px) {
+    .pintura-e-restauracao h1 {
+        font-size: 30px;
+        color: white;
+    }
+
+    .justify {
+        top: 0;
+        position: absolute;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 360px;
+        width: 100%;
+        width: 100%;
+    }
+}
+
+
